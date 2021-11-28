@@ -2,7 +2,10 @@
 
 **미리보기**
 <br>
-![포트폴리오](https://user-images.githubusercontent.com/84282163/143773466-c41c1ec0-7d5b-45d3-ae0e-2c09add9f73d.JPG)
+<a href="https://hyyrim.github.io/Portfolio-new/">![포트폴리오](https://user-images.githubusercontent.com/84282163/143773466-c41c1ec0-7d5b-45d3-ae0e-2c09add9f73d.JPG)</a>
+클릭 시 해당 사이트로 이동합니다.
+
+
 
 ## 🏷 목차
 
