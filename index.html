@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Hyerim's Portfolio</title>
     <meta name="description" content=Hyerim's Portfolio>
     <meta name="author" content="Hyerim">
     <link rel="icon" type="image/png" href="imgs/favicon.png">
@@ -40,7 +40,7 @@
     <div class="home__container">
       <h1 class="home__title">HYERIM HAN'S PORTFOLIO</h1>
 	  <img class="home__avatar" src="imgs/profile2.jpg" alt="Hyerim's profile photo">
-      <h2 class="home__description">안녕하세요. Front-end developer 한혜림입니다.<br>제 포트폴리오 페이지에 오신걸 환영합니다.</h2>
+      <h2 class="home__description">안녕하세요. Front-end developer 한혜림입니다.<br>제 포트폴리오 페이지에 오신걸 환영합니다✨</h2>
       <button class="home__contact" data-link="#contact">Contact Me</button>
 		</div>
   </section>
@@ -50,7 +50,17 @@
 
       <div class="about__description">
         <img src="./imgs/about_me.jpg" alt="about me image" class="about__image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta tempore odit,</p>
+        <div class="description__content">
+            <h3>모험을 즐기는 한혜림입니다.</h3>
+            <p>동덕여자대학교 실용음악과 재즈피아노를 전공했습니다.<br>
+            졸업 후 쌍용교육센터에서 JAVA를 프로그래밍 교육을 통해 Java, Oracle, Spring 등 이수했습니다.<br> 
+            해당 교육을 시작으로, 수료 후에는 Front-end 개발 지식을 쌓기 위해<br>
+            온라인 강의를 들으며 HTML/CSS/JavaScript를 사용한 개인 프로젝트 작업을 했습니다.<br>
+            <br>
+            최근에는 TypeScript를 공부하고 있으며 <br>
+            더 나은 성능을 고려하는 웹 개발자가 되기위해 꾸준히 노력하고있습니다. 
+        </p>
+        </div>
       </div>
      
       <div class="about__jobs">
@@ -65,7 +75,7 @@
             <div class="job">
                 <img src="imgs/jobs/ss_logo_300.png" alt="쌍용교육센터 로고" class="job__logo">
                 <div class="job__description">
-                    <p class="job__name">쌍용교육센터 풀스택 개발자 양성과정</p>
+                    <p class="job__name">자바(JAVA)를 활용한 풀스택 융합 SW개발자 양성과정</p>
                     <p class="job__period">2021.02 ~ 2021.07</p>
                 </div>
             </div>
@@ -88,26 +98,21 @@
       <div class="section__container">
           <h1>Skills</h1>
   	       <h2>Skills & Attributes</h2>
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dignissimos. Quos excepturi a tempora officia sint, 
-              consequuntur tenetur beatae quidem dolorum minima eaque accusamus, 
-              pariatur suscipit labore sed veritatis enim.
-          </p>
           <div class="skill__majors">
             <div class="major">
                 <div class="major__icon"><i class="fab fa-html5"></i></div>
                 <h2 class="major__title">HTML</h2>
-                <div class="major__description">Lorem ipsum, dolor sit amet consectetur</div>
+                <div class="major__description">마크업, 시맨틱 태그 사용, 폼요소, 테이블 등 사용</div>
             </div>
             <div class="major">
                 <div class="major__icon"><i class="fab fa-css3-alt"></i></div>
                 <h2 class="major__title">CSS</h2>
-                <div class="major__description">sapiente quod necessitatibus soluta voluptates</div>
+                <div class="major__description">배경 스타일링, 텍스트 스타일링 등</div>
             </div>
             <div class="major">
                 <div class="major__icon"><i class="fab fa-js"></i></div>
                 <h2 class="major__title">JavaScript</h2>
-                <div class="major__description">Modi dolore praesentium molestiae amet vel.</div>
+                <div class="major__description">네비게이션 구성, 탭메뉴 구현, 동적 요소 생성</div>
             </div>
       </div>
           <div class="skillset">
@@ -148,10 +153,10 @@
 
   <!-- Work -->
   <section id="work" class="section">
-		<div class="section__container">
-			<h1>My work</h1>
-      <h3>Projects</h3>
-      <div class="work__categories">
+	  <div class="section__container">
+		<h1>My Projects</h1>
+        <p>Please click this link to view Github<p>
+        <div class="work__categories">
         <button class="category__btn selected" data-filter="*">
             All<span class="category__count">6</span>
         </button>
@@ -164,46 +169,46 @@
       </div>
 
       <div class="work__projects">
-          <a href="#" class="project" target="blank" data-type="front-end">
+          <a href="https://github.com/hyyrim/Portfolio-new" class="project" target="blank" data-type="front-end">
               <img class="project__img" src="imgs/works/Portfolio.png" alt="">
               <div class="project__description">
-                  <h3>Project</h3>
-                  <span>Clone coding with HTML and CSS</span>
+                  <h3>Portfolio</h3>
+                  <span>포트폴리오 사이트<br>HTML/CSS/JavaScript</span>
                 </div>
             </a>
-            <a href="#" class="project" target="blank" data-type="back-end">
+            <a href="https://github.com/hyyrim/GoMuhobby" class="project" target="blank" data-type="back-end">
                 <img class="project__img" src="imgs/works/Muhobby.png" alt="">
                 <div class="project__description">
-                    <h3>Project</h3>
-                    <span>Clone coding with HTML and CSS</span>
+                    <h3>Muhobby</h3>
+                    <span>취미 음악 공유 사이트<br>Java/JSP/Spring/Oracle</span>
                 </div>
             </a>
-            <a href="#" class="project" target="blank" data-type="front-end">
+            <a href="https://github.com/hyyrim/Starbucks-App" class="project" target="blank" data-type="front-end">
                 <img class="project__img" src="imgs/works/스타벅스.png" alt="">
                 <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Clone coding with HTML and CSS</span>
+                        <h3>Starbucks</h3>
+                        <span>스타벅스 클론 코딩<br>HTML/CSS/JavaScript</span>
                 </div>
             </a>
-            <a href="#" class="project" target="blank" data-type="front-end">
+            <a href="https://github.com/hyyrim/ShoppingList" class="project" target="blank" data-type="front-end">
               <img class="project__img" src="imgs/works/ShoppingList.png" alt="">
               <div class="project__description">
-                  <h3>Project</h3>
-                  <span>Clone coding with HTML and CSS</span>
+                  <h3>Shopping-List</h3>
+                  <span>쇼핑 리스트 App<br>HTML/CSS/JavaScript</span>
               </div>
             </a>
-            <a href="#" class="project" target="blank" data-type="front-end">
+            <a href="https://github.com/hyyrim/Web-Header" class="project" target="blank" data-type="front-end">
                 <img class="project__img" src="imgs/works/4.png" alt="">
                 <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Clone coding with HTML and CSS</span>
+                        <h3>웹 헤더</h3>
+                        <span>반응형 웹 헤더 클론 코딩 <br>HTML/CSS</span>
                 </div>
             </a>
-            <a href="#" class="project" target="blank" data-type="front-end">
+            <a href="https://github.com/hyyrim/Youtube-clone-coding" class="project" target="blank" data-type="front-end">
                 <img class="project__img" src="imgs/works/8.png" alt="">
                 <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Clone coding with HTML and CSS</span>
+                        <h3>유튜브</h3>
+                        <span>유튜브 클론 코딩<br>HTML/CSS</span>
                 </div>
             </a>
             

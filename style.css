@@ -83,7 +83,7 @@ h2 {
 
 h3 {
 	font-size: var(--font-regular);
-	font-weight: var(--weight-regular);
+	font-weight: var(--weight-semi-bold);
 	color: var(--color-black);
 	margin: 8px 0;
 }
@@ -215,8 +215,13 @@ p {
 }
 
 .about__image,
-.about__description p {
+.about__description {
 	margin: 0 8px;
+}
+
+.about__description .description__content {
+	text-align: left;
+	margin-left: 16px;
 }
 
 .job {
@@ -305,7 +310,7 @@ p {
 }
 
 .major__description {
-	font-size: var(--font-small);
+	font-size: var(--font-micro);
 }
 
 .skillset {
@@ -369,6 +374,11 @@ p {
 
 .work__categories {
 	margin: 40px;
+}
+
+.work .section__container p {
+	font-size: var(--font-micro);
+	color: var(--color-grey);
 }
 
 .category__btn {
